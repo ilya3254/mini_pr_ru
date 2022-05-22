@@ -4,28 +4,42 @@
     src: url(fonts/FiraSans-Bold.ttf);
 }
 body {
-	color: #fff;
+	color: black;
 	text-align: center;
 	font-family: FiraSansBold, serif;
+	line-height: 240%;
 }
 .logo {
 	width: 250px;
 }
-h1, h2 {
+h1 {
 	font-size: 40px;
-	color: black;
 	margin-bottom: 20px;
+}
+h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+p {
+	font-size: 30px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 .contacts {
 	height: 65px;
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 .contacts a {
 	display: inline-block;
 	height: 65px;
 	width: 60px;
-	margin-right: 20px;
+	margin-right: 40px;
+}
+.contacts a:nth-child(4) {
+	margin-right: 0;
 }
 .vk {
 	background-image: url(img/vk.svg);
