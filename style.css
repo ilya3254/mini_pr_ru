@@ -8,6 +8,7 @@ body {
 	text-align: center;
 	font-family: FiraSansBold, serif;
 	line-height: 240%;
+	background-color: #ffc2cc;
 }
 .logo {
 	width: 250px;
@@ -27,34 +28,58 @@ p {
 	margin-top: 40px;
 }
 .contacts {
-	height: 65px;
+	height: 60px;
 	width: 100%;
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
 .contacts a {
 	display: inline-block;
-	height: 65px;
+	height: 60px;
 	width: 60px;
 	margin-right: 40px;
 }
 .contacts a:nth-child(4) {
 	margin-right: 0;
 }
-.vk {
+/*.vk {
 	background-image: url(img/vk.svg);
 	background-size: cover;
+}*/
+
+
+/*.vk svg path:first-child:hover {
+	fill: #00F;
 }
-.inst {
+.vk svg path:first-child:active {
+	fill: #00c;
+}*/
+
+
+/*.inst {
 	background-image: url(img/inst.svg);
 	background-size: cover;
+}*/
+.inst img {
+	width: 60px;
+	height: 60px;
 }
-.mail {
+/*.mail {
 	background-image: url(img/at.svg);
 	background-size: cover;
 	width: 65px !important;
+}*/
+.mail svg {
+	fill: #0f93ff;
 }
-.tel {
+/*.tel {
 	background-image: url(img/whatsapp.svg);
 	background-size: cover;
+}*/
+.tel svg:active, .vk svg:active, .inst img:active, .mail svg:active {
+	position: relative;
+	top: 2px;
+}
+.corona {
+	width: 250px;
 }
