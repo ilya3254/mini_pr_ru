@@ -1,0 +1,46 @@
+@import url('reset.css');
+@font-face {
+    font-family: FiraSansBold;
+    src: url(fonts/FiraSans-Bold.ttf);
+}
+body {
+	color: #fff;
+	text-align: center;
+	font-family: FiraSansBold, serif;
+}
+.logo {
+	width: 250px;
+}
+h1, h2 {
+	font-size: 40px;
+	color: black;
+	margin-bottom: 20px;
+}
+.contacts {
+	height: 65px;
+	width: 100%;
+	margin-top: 40px;
+}
+.contacts a {
+	display: inline-block;
+	height: 65px;
+	width: 60px;
+	margin-right: 20px;
+}
+.vk {
+	background-image: url(img/vk.svg);
+	background-size: cover;
+}
+.inst {
+	background-image: url(img/inst.svg);
+	background-size: cover;
+}
+.mail {
+	background-image: url(img/at.svg);
+	background-size: cover;
+	width: 65px !important;
+}
+.tel {
+	background-image: url(img/whatsapp.svg);
+	background-size: cover;
+}
