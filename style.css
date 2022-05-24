@@ -8,6 +8,10 @@ body {
 	text-align: center;
 	font-family: FiraSansBold, serif;
 	line-height: 240%;
+}
+#wrapper {
+	width: 50%;
+	margin: 0 auto;
 	background-color: #ffc2cc;
 }
 .logo {
