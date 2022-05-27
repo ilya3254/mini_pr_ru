@@ -10,18 +10,34 @@ body {
 	line-height: 240%;
 }
 #wrapper {
+	position: relative;
 	margin: 0 auto;
 	background-color: #ffe4e1;
 	min-width: 550px;
 	max-width: 900px;
 }
 .wrap {
+	position: relative;
 	height: 900px;
+}
+.logo_back {
+	top: 0;
+}
+.logo_back, .corona_back {
+	position: absolute;
+	left: 0;
+    width: 100%;
+    height: auto;
+}
+.corona_back {
+	bottom: 0;
 }
 .logo {
 	margin-top: 30px;
 	margin-bottom: 5px;
 	width: 150px;
+	position: relative;
+	z-index: 2;
 }
 .logo2 {
 	margin-top: 250px;
@@ -34,6 +50,8 @@ h1, h2 {
 	font-size: 40px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	position: relative;
+	z-index: 2;
 }
 p {
 	font-size: 30px;
